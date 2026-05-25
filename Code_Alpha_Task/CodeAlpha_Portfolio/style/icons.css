@@ -1,0 +1,70 @@
+/* ===== ICON FIX — always load this file LAST ===== */
+
+/* Boxicons font on element + ::before (glyph lives in ::before) */
+i.bx,
+i[class*="bx"],
+.bx,
+.bx::before,
+i.bx::before,
+i[class*="bx"]::before {
+    font-family: boxicons !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    line-height: 1 !important;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.menu-icon i,
+.social-icons a i,
+.head-icons i,
+.links a i,
+.arrows a i {
+    font-size: 1.5rem;
+    color: inherit;
+}
+
+.menu-icon i {
+    font-size: 2.5rem;
+    color: var(--white);
+}
+
+.social-icons a i {
+    font-size: 1.75rem;
+    color: var(--white);
+}
+
+.social-icons a:hover i {
+    color: var(--primary);
+}
+
+.head-icons > i {
+    font-size: 2.5rem;
+    /* color: var(--green); */
+}
+
+/* Phosphor Icons */
+i.ph,
+i[class^="ph-"],
+.ph,
+.ph::before,
+i.ph::before,
+i[class^="ph-"]::before {
+    font-family: "Phosphor" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    line-height: 1 !important;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.contact-media .media span i {
+    font-size: 1.75rem;
+    color: var(--green);
+}
